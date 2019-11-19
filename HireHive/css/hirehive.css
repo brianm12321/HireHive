@@ -1,0 +1,22 @@
+body, html{margin:0 auto; padding:0; height: 100%; width: 100%;}
+#blackContainer{display: table; height: 33%; max-height:300px; min-height: 225px; width: 100%; background-color: black;}
+#searchBarContainer{margin: 0 auto; margin-top:5%; width:80%; height: 100px; background-color: black; }
+#searchBar{height:50px; width:100%; border-style: solid; border-color: #5071B5; border-radius:5px; padding-left:40px; font-size: 22px;}
+.input-icons i{ position: absolute; } 
+.input-icons{width: 95%; margin-bottom: 10px; } 
+.icon{padding-top: 20px; color: black; min-width: 50px; text-align: center; display:block;}
+@media (max-width: 425px) 
+	{
+		#searchBar{padding-left: 0px; font-size: 16px;}
+		.input-icons{width: 100%;}
+		.icon{display: none;}
+	}
+.button{background-color: #C0C0C0; border: none; color: black; padding: 10px; text-align: center; text-decoration: none; display: inline-block; font-size: 14px; margin: 4px 2px; cursor: pointer; border-radius: 10px;}
+table{margin: 5% auto; margin-left: 10%; margin-right: 10%; width: 80%; table-layout:fixed; text-align:left; border-collapse: collapse; cellpadding="20";}
+tr{ border-bottom: solid thin; border-color: #D2D2D2; }
+tr:hover {background-color: #f2f4f7; cursor: pointer;}
+th{font-size: 10px; color: #B9B9B9;}
+td{padding-top: 2em; padding-bottom: 2em; color: #484848; font-size:15px;}
+td:nth-child(n+2){ color: #636363}
+td:nth-child(n+3){ color: #A5A5A5;}
+td:nth-child(n+4){ text-align: right; padding-right: 2em; color: #9B9B9B;}
